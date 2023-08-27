@@ -7,6 +7,9 @@ namespace MovieRankMVC.Controllers
     public class UsersController : Controller
     {
         // GET: HomeController1
+
+        private static List<User> usersList = LoadUsers();
+
         public ActionResult Index()
         {
             return View();
@@ -41,6 +44,7 @@ namespace MovieRankMVC.Controllers
                 {
                     if (user.Password == user.ConfirmPassword)
                     {
+                        usersList.Add(user);
                         return View("Login");
                     }
                     else
@@ -124,5 +128,16 @@ namespace MovieRankMVC.Controllers
                 return View();
             }
         }
+
+        #region Private-Methods
+        private static List<User> LoadUsers()
+        {
+            List<User> movies = new List<User>();
+
+            //movies.Add(new User() {  });
+
+            return movies;
+        }
+        #endregion Private-Methods
     }
 }
