@@ -70,23 +70,27 @@ namespace MovieRankMVC.Controllers
                 string userEmail = collection["UserEmail"];
                 string userPassword = collection["Password"];
 
-                if (userEmail.Equals("ad@g.com"))
+                User user = usersList.FirstOrDefault(u => u.UserEmail == userEmail);
+
+                if (user != null && user.Password.Equals(userPassword))
                 {
-                    // Código a ejecutar si la condición es verdadera
-                    return View("~/Views/Home/Index.cshtml");
+                    // Acceso exitoso, redirigir a la página principal
+                    return RedirectToAction("Index", "Home");
                 }
                 else
                 {
+                    ModelState.AddModelError("", "Credenciales inválidas");
                     return View("Login");
                 }
-
             }
-            catch
+            catch (Exception ex)
             {
+                // Manejar errores de manera adecuada (log, notificación, etc.)
+                ModelState.AddModelError("", "Error en el proceso de inicio de sesión: " + ex.Message);
                 return View();
             }
         }
-        
+
         // GET: HomeController1/Edit/5
         public ActionResult Edit(int id)
         {
@@ -134,7 +138,7 @@ namespace MovieRankMVC.Controllers
         {
             List<User> movies = new List<User>();
 
-            //movies.Add(new User() {  });
+            movies.Add(new User() { Id = 1 ,FirstName = "Admin", LastName = "User", UserEmail = "Admin@email.com", Password = "P4ssw0rd*01", ConfirmPassword = "P4ssw0rd*01" });
 
             return movies;
         }
