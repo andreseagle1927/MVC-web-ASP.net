@@ -1,124 +1,93 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
-<body class="bg-secondary">
-    <div class="container-fluid justify-content-center align-items-center">
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="img/imagen1.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 1">
-                            <div class="carousel-caption">
-                                <h5>Barbie</h5>
-                                <p>Rating: 4.5</p>
-                                <a href="#" class="btn btn-primary">Detalles</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/imagen2.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 2">
-                            <div class="carousel-caption">
-                                <h5>Batman the Dark Knight</h5>
-                                <p>Rating: 4.0</p>
-                                <a href="#" class="btn btn-primary">Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="img/imagen3.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 3">
-                            <div class="carousel-caption">
-                                <h5>Interstellar</h5>
-                                <p>Rating: 4.0</p>
-                                <a href="#" class="btn btn-primary">Detalles</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/imagen4.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 4">
-                            <div class="carousel-caption">
-                                <h5>Otra película</h5>
-                                <p>Rating: 3.5</p>
-                                <a href="#" class="btn btn-primary">Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img src="img/imagen5.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 5">
-                            <div class="carousel-caption">
-                                <h5>Título de la película 5</h5>
-                                <p>Rating: 4.2</p>
-                                <a href="#" class="btn btn-primary">Detalles</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="img/imagen6.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 6">
-                            <div class="carousel-caption">
-                                <h5>Título de la película 6</h5>
-                                <p>Rating: 3.8</p>
-                                <a href="#" class="btn btn-primary">Detalles</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/imagen5.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 7">
-                        <div class="carousel-caption">
-                            <h5>Título de la película 5</h5>
-                            <p>Rating: 4.2</p>
-                            <a href="#" class="btn btn-primary">Detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/imagen6.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 8">
-                        <div class="carousel-caption">
-                            <h5>Título de la película 6</h5>
-                            <p>Rating: 3.8</p>
-                            <a href="#" class="btn btn-primary">Detalles</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="img/imagen5.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 9">
-                        <div class="carousel-caption">
-                            <h5>Título de la película 5</h5>
-                            <p>Rating: 4.2</p>
-                            <a href="#" class="btn btn-primary">Detalles</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/imagen6.jpg" class="carousel-img d-block mx-auto" alt="Pelicula 10">
-                        <div class="carousel-caption">
-                            <h5>Título de la película 6</h5>
-                            <p>Rating: 3.8</p>
-                            <a href="#" class="btn btn-primary">Detalles</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    
- 
+﻿@model IEnumerable<MovieRankMVC.Models.Movie>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <h1 class="text-center">Movie Carousel</h1>
+    <div id="movieCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @for (int i = 0; i < Model.Count(); i += 3)
+            {
+                <div class="carousel-item @(i == 0 ? "active" : "")">
+                    <div class="row justify-content-center">
+                        @for (int j = i; j < i + 3 && j < Model.Count(); j++)
+                        {
+                            <div class="col-md-3">
+                                <div class="card yugioh-card">
+                                    <div class="card-img-container">
+                                        <img src="@Url.Content(Model.ElementAt(j).Poster)" class="card-img-top img-fluid" alt="@Model.ElementAt(j).Title">
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">@Model.ElementAt(j).Title</h5>
+                                        <br>
+                                        <h7 class="card-title">Rate: </h7>
+                                       
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: @(Model.ElementAt(j).Rate * 10)%" aria-valuenow="@Model.ElementAt(j).Rate" aria-valuemin="0" aria-valuemax="10"></div>
+                                        </div>
+                                        <br>
+                                        <button class="btn btn-primary">Details</button>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <div class="carousel-nav">
+        <a class="carousel-prev" href="#movieCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-nav-icon">❮</span>
+        </a>
+        <a class="carousel-next" href="#movieCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-nav-icon">❯</span>
+        </a>
+    </div>
+</div>
+
+<style>
+    .yugioh-card {
+        background-color: #97A4D6;
+        color: black;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        height: 550px
+    }
+
+    .card-img-container {
+        max-height: 280px; /* Ajusta el valor según tus necesidades */
+        overflow: hidden;
+    }
+
+    .carousel-nav {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+        .carousel-nav a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background-color: #000;
+            color: #fff;
+            border-radius: 50%;
+            font-size: 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+</style>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#movieCarousel').carousel();
+        });
+    </script>
+}
