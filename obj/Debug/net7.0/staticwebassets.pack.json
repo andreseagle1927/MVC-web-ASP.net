@@ -1,247 +1,371 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MovieRankMVC.bundle.scp.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MovieRankMVC.bundle.scp.css",
       "PackagePath": "staticwebassets\\MovieRankMVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Ant-man-and-the-wasp-quantumania.png",
+      "PackagePath": "staticwebassets\\Posters\\Ant-man-and-the-wasp-quantumania.png"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Avengers-Age-of-Ultron.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Avengers-Age-of-Ultron.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Avengers-Endgame.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Avengers-Endgame.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Barbie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Barbie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Batman-the-dark-knight.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Batman-the-dark-knight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Black-panther-wakanda-forever.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Black-panther-wakanda-forever.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Blue-beetle.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Blue-beetle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Captain-America-The-First-Avenger.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Captain-America-The-First-Avenger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Elemental.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Elemental.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Guardians-of-the-galaxy-vol-3.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Guardians-of-the-galaxy-vol-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Haunted-mansion.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Haunted-mansion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Indiana-jones-and-the-dial-of-destiny.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Indiana-jones-and-the-dial-of-destiny.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Interstellar.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Interstellar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Jules.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Jules.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Meg-2-the-trench.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Meg-2-the-trench.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Mission-impossible-dead-reckoning-part-one.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Mission-impossible-dead-reckoning-part-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\MoviesDB.xlsx",
+      "PackagePath": "staticwebassets\\Posters\\MoviesDB.xlsx"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Oppenheimer.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Oppenheimer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Sound-of-freedom.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Sound-of-freedom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Spider-Man.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Spider-Man.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Spider-man-across-the-spider-verse-part-one.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Spider-man-across-the-spider-verse-part-one.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Talk-to-me.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Talk-to-me.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Teenage-mutant-ninja-turtles-mutant-mayhem.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Teenage-mutant-ninja-turtles-mutant-mayhem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\The-Lord-of-the-Rings-The-Two-Towers.jpg",
+      "PackagePath": "staticwebassets\\Posters\\The-Lord-of-the-Rings-The-Two-Towers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\The-Matrix.jpg",
+      "PackagePath": "staticwebassets\\Posters\\The-Matrix.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\The-last-voyage-of-the-demeter.jpg",
+      "PackagePath": "staticwebassets\\Posters\\The-last-voyage-of-the-demeter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\The-little-mermaid.jpg",
+      "PackagePath": "staticwebassets\\Posters\\The-little-mermaid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\The-super-mario-bros-movie.jpg",
+      "PackagePath": "staticwebassets\\Posters\\The-super-mario-bros-movie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Titanic.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Titanic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Top-Gun-Maverick.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Top-Gun-Maverick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\Posters\\Transformers-rise-of-the-beasts.jpg",
+      "PackagePath": "staticwebassets\\Posters\\Transformers-rise-of-the-beasts.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\santi\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
