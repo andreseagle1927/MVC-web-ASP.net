@@ -75,6 +75,8 @@ namespace MovieRankMVC.Controllers
                 if (user != null && user.Password.Equals(userPassword))
                 {
                     // Acceso exitoso, redirigir a la página principal
+
+                    TempData["UserEmail"] = userEmail;
                     return RedirectToAction("Index", "Home");
                 }
                 else
