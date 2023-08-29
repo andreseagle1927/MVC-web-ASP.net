@@ -5,10 +5,8 @@
 }
 
 <div class="container">
-    <!-- Contenido que no debe ser afectado por el fondo -->
     <h1 class="text-center" style="color:white;">Movie Carousel</h1>
 
-    <!-- Carrusel y contenido relacionado -->
     <div id="movieCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             @for (int i = 0; i < Model.Count(); i += 3)
@@ -39,7 +37,6 @@
             }
         </div>
 
-        <!-- Navegación del carrusel -->
         <div class="carousel-nav">
             <a class="carousel-prev" href="#movieCarousel" role="button" data-bs-slide="prev">
                 <span class="carousel-nav-icon">❮</span>
@@ -50,7 +47,6 @@
         </div>
     </div>
 
-    <!-- Contenedor del fondo interactivo -->
     <div id="background-container">
         <div id="my-background"></div>
     </div>
@@ -63,7 +59,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: -1; /* Coloca el fondo detrás de otros elementos */
+        z-index: -1; 
     }
 
     #my-background {
