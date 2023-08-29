@@ -14,21 +14,19 @@
                     <div class="row justify-content-center">
                         @for (int j = i; j < i + 3 && j < Model.Count(); j++)
                         {
-                            <div class="col-md-3">
+                            <div class="col-md-4 col-sm-6">
                                 <div class="card yugioh-card">
                                     <div class="card-img-container">
                                         <img src="@Url.Content(Model.ElementAt(j).Poster)" class="card-img-top img-fluid" alt="@Model.ElementAt(j).Title">
                                     </div>
                                     <div class="card-body">
                                         <h5 class="card-title">@Model.ElementAt(j).Title</h5>
-                                        <br>
-                                        <h7 class="card-title">Rate: </h7>
-                                       
+                                        <p class="card-text">Rate:</p>
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: @(Model.ElementAt(j).Rate * 10)%" aria-valuenow="@Model.ElementAt(j).Rate" aria-valuemin="0" aria-valuemax="10"></div>
                                         </div>
                                         <br>
-                                        <button class="btn btn-primary">Details</button>
+                                        <button class="btn btn-primary" onclick="location.href='@Url.Action("Details", "Home", new { id = Model.ElementAt(j).Id })'">Details</button>
                                     </div>
                                 </div>
                             </div>
@@ -50,16 +48,15 @@
 
 <style>
     .yugioh-card {
-        background-color: #97A4D6;
+        background-color: #F0E025;
         color: black;
         padding: 20px;
         margin: 10px;
         border-radius: 10px;
-        height: 550px
     }
 
     .card-img-container {
-        max-height: 280px; /* Ajusta el valor según tus necesidades */
+        max-height: 480px;
         overflow: hidden;
     }
 
@@ -75,8 +72,8 @@
             justify-content: center;
             width: 30px;
             height: 30px;
-            background-color: #000;
-            color: #fff;
+            background-color: #fff;
+            color: black;
             border-radius: 50%;
             font-size: 20px;
             text-decoration: none;

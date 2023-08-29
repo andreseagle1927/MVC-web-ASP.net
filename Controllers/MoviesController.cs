@@ -60,7 +60,8 @@ namespace MovieRankMVC.Controllers
         // GET: MoviesController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            Movie movieToEdit = moviesList.FirstOrDefault(m => m.Id == id);
+            return View(movieToEdit);
         }
 
         // POST: MoviesController/Edit/5
@@ -141,6 +142,8 @@ namespace MovieRankMVC.Controllers
             movies.Add(new Movie { Id = 6, Title = "Avengers: Age of Ultron", Year = 2015, Duration = "2:21", Synopsis = "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.", Genres = "Action|Adventure|Sci-Fi", Rate = 7.3f, Poster = "~/Posters/Avengers-Age-of-Ultron.jpg" });
             movies.Add(new Movie { Id = 7, Title = "Spider-Man: Across the Spider-Verse", Year = 2023, Duration = "2:20", Synopsis = "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.", Genres = "Animation|Action|Adventure", Rate = 8.8f, Poster = "~/Posters/Spider-man-across-the-spider-verse-part-one.jpg" });
             movies.Add(new Movie { Id = 8, Title = "Mission: Impossible - Dead Reckoning Part One", Year = 2023, Duration = "2:43", Synopsis = "Ethan Hunt and his IMF team must track down a dangerous weapon before it falls into the wrong hands.", Genres = "Action|Adventure|Thriller", Rate = 8.0f, Poster = "~/Posters/Mission-impossible-dead-reckoning-part-one.jpg" });
+            movies.Add(new Movie { Id = 9, Title = "Teenage Mutant Ninja Turtles: Mutant Mayhem", Year = 2023, Duration = "1:39", Synopsis = "The film follows the Turtle brothers as they work to earn the love of New York City while facing down an army of mutants.", Genres = "Animation|Action|Adventure", Rate = 7.5f, Poster = "~/Posters/Teenage-mutant-ninja-turtles-mutant-mayhem.jpg" });
+            movies.Add(new Movie { Id = 10, Title = "Top Gun: Maverick", Year = 2022, Duration = "2:10", Synopsis = "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.", Genres = "Drama|Action", Rate = 8.3f, Poster = "~/Posters/Top-Gun-Maverick.jpg" });
             movies.Add(new Movie { Id = 11, Title = "Avengers: Endgame", Year = 2019, Duration = "3:01", Synopsis = "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos actions and restore balance to the universe.", Genres = "Action|Adventure|Sci-Fi", Rate = 8.4f, Poster = "~/Posters/Avengers-Endgame.jpg" });
             movies.Add(new Movie { Id = 12, Title = "Indiana Jones and the Dial of Destiny", Year = 2023, Duration = "2:34", Synopsis = "Archaeologist Indiana Jones races against time to retrieve a legendary artifact that can change the course of history.", Genres = "Action|Adventure", Rate = 6.8f, Poster = "~/Posters/Indiana-jones-and-the-dial-of-destiny.jpg" });
             movies.Add(new Movie { Id = 13, Title = "Meg 2: The Trench", Year = 2023, Duration = "1:56", Synopsis = "A research team encounters multiple threats while exploring the depths of the ocean, including a malevolent mining operation.", Genres = "Action|Adventure|Horror", Rate = 5.5f, Poster = "~/Posters/Meg-2-the-trench.jpg" });
