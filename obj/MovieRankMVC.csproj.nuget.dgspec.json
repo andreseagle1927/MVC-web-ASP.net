@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Santiago\\OneDrive\\Documentos\\GitHub\\MVC-web-ASP.net\\MovieRankMVC.csproj": {}
   },
   "projects": {
@@ -16,22 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Santiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\MovieRankMVC.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\MovieRankMVC.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\MovieRankMVC.csproj",
-        "projectName": "MovieRankMVC",
-        "projectPath": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\MovieRankMVC.csproj",
-        "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andres\\Downloads\\DesarolloWEB-ASP.net\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 07eb22bf44716be157fee4c2bf004ddb476f50fe
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
