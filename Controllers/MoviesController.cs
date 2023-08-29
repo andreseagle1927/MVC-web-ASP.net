@@ -130,7 +130,7 @@ namespace MovieRankMVC.Controllers
         }
 
         #region Private-Methods
-        private static List<Movie> LoadMovies()
+        private static List<Movie> LoadMovies() 
         {
             List<Movie> movies = new List<Movie>();
 
